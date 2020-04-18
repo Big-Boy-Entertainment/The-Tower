@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class LavaMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float speed = 10;
+    public bool isPaused;
+    public bool resetGame = false;
+    private Vector3 startPos;
+
+    private void Start()
     {
-        
+        startPos = this.transform.position;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(0,0,0);
+        if(!isPaused)
+        {
+            transform.position += new Vector3(0, speed * Time.deltaTime, 0);
+        }
+
+        if(resetGame)
+        {
+            transform.position = startPos;
+        }
     }
 }
