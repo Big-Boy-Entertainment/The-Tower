@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -44,10 +44,10 @@ MonoBehaviour:
     y: 30
     width: 2544
     height: 1331
-  m_MinSize: {x: 683, y: 494}
-  m_MaxSize: {x: 14004, y: 14044}
+  m_MinSize: {x: 679, y: 494}
+  m_MaxSize: {x: 14002, y: 14044}
   vertical: 0
-  controlID: 57
+  controlID: 59
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -67,8 +67,8 @@ MonoBehaviour:
     y: 0
     width: 516
     height: 1331
-  m_MinSize: {x: 277, y: 72}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -93,8 +93,8 @@ MonoBehaviour:
     y: 0
     width: 502
     height: 805
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -215,10 +215,10 @@ MonoBehaviour:
     y: 0
     width: 2028
     height: 1331
-  m_MinSize: {x: 406, y: 494}
+  m_MinSize: {x: 404, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 58
+  controlID: 60
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,10 +240,10 @@ MonoBehaviour:
     y: 0
     width: 2028
     height: 805
-  m_MinSize: {x: 406, y: 222}
-  m_MaxSize: {x: 8006, y: 4022}
+  m_MinSize: {x: 404, y: 222}
+  m_MaxSize: {x: 8004, y: 4022}
   vertical: 0
-  controlID: 59
+  controlID: 61
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -337,20 +337,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Building Blocks
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Building Blocks
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\zacpa\Documents\Uwe\GDE\Project\Git Stuff\The-Tower
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a2600000
-    m_LastClickedID: 24738
-    m_ExpandedIDs: 00000000b43400002c3600006c37000000ca9a3b
+    m_SelectedIDs: e22c0000
+    m_LastClickedID: 11490
+    m_ExpandedIDs: 00000000e22c00006c2e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -378,7 +378,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b4340000
+    m_ExpandedIDs: 00000000e22c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -498,10 +498,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 927}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 063fffff403fffff12aeffff22ebffff
+      m_ExpandedIDs: 107cffff207cffff287cffff307cffff387cffff427cffff4e7cffffa07cffffcaa5ffff7afbfffffe31000048320000583200005c3200009c320000a4320000cc320000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -561,9 +561,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -10.872304, y: 27.5097, z: 6.812748}
+    m_Target: {x: -26.652771, y: 75.21885, z: 6.104002}
     speed: 2
-    m_Value: {x: -10.872304, y: 27.5097, z: 6.812748}
+    m_Value: {x: -26.652771, y: 75.21885, z: 6.104002}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -592,13 +592,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.008262071, y: 0.9918708, z: -0.09732085, w: 0.08371963}
+    m_Target: {x: 0.0029870712, y: 0.9966962, z: -0.05723097, w: 0.06489373}
     speed: 2
-    m_Value: {x: 0.008278837, y: 0.9917123, z: -0.09580354, w: 0.08520467}
+    m_Value: {x: 0.0028886034, y: 0.9963333, z: -0.055710822, w: 0.06486899}
   m_Size:
-    m_Target: 63.272316
+    m_Target: 91.46399
     speed: 2
-    m_Value: 60.547672
+    m_Value: 95.77381
   m_Ortho:
     m_Target: 0
     speed: 2
